@@ -5,28 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b640334-c693-4412-8394-44438496aeb0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/src/main/java/AccessControlService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/src/main/java/AccessDeniedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/src/main/java/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/src/main/java/DocumentProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/src/main/java/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/src/main/java/ProtectedDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/src/main/java/UnprotectedDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/src/main/java/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2oQv7ASBti9AV52NKAOwmNpOlHY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -46,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730814448072</updated>
-      <workItem from="1730814449200" duration="7000" />
+      <workItem from="1730814449200" duration="1284000" />
     </task>
     <servers />
   </component>

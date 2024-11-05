@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public interface Document {
+import java.util.Date;
+
+public interface Document {
+    String getId();
+    Date getCreationDate();
+    String getContent(User user) throws AccessDeniedException;
 }
