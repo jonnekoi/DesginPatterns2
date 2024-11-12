@@ -1,27 +1,36 @@
 public class GamingComputerBuilder implements ComputerBuilder {
+    private Computer computer;
+
+    public GamingComputerBuilder() {
+        this.computer = new Computer();
+    }
 
     @Override
     public void buildProcessor() {
-        System.out.println("Intel Core i9-14900K Processor");
+        computer.setProcessor("Intel Core i9-14900K Processor");
     }
 
     @Override
     public void buildRAM() {
-        System.out.println("32GB RAM");
+        computer.setRAM("32GB RAM");
     }
 
     @Override
     public void buildHardDrive() {
-        System.out.println("2TB m2 ssd");
+        computer.setHardDrive("2TB m2 ssd");
     }
 
     @Override
     public void buildGraphicsCard() {
-        System.out.println("Nvidia RTX 4090");
+        computer.setGraphicsCard("Nvidia RTX 4090");
     }
 
     @Override
     public void buildOperatingSystem() {
-        System.out.println("Windows 11");
+        computer.setOperatingSystem("Windows 11");
+    }
+
+    public Computer getComputer() {
+        return this.computer;
     }
 }

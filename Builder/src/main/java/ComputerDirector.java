@@ -5,7 +5,7 @@ public class ComputerDirector {
         this.builder = builder;
     }
 
-    public void buildComputer() {
+    public void constructComputer() {
         builder.buildProcessor();
         builder.buildRAM();
         builder.buildHardDrive();

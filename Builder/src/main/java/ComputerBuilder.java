@@ -9,4 +9,6 @@ public interface ComputerBuilder {
     void buildGraphicsCard();
 
     void buildOperatingSystem();
+
+    Computer getComputer();
 }

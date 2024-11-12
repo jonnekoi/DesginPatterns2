@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b640334-c693-4412-8394-44438496aeb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Builder/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/src/main/java/ComputerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/src/main/java/ComputerDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/src/main/java/GamingComputerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/src/main/java/OfficeComputerBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2b640334-c693-4412-8394-44438496aeb0" name="Changes" comment="builder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,21 +48,6 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="DesginPatterns2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="DesginPatterns2" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -91,6 +66,14 @@
       <workItem from="1730814449200" duration="1284000" />
       <workItem from="1730815939512" duration="269000" />
     </task>
+    <task id="LOCAL−00001" summary="builder">
+      <option name="closed" value="true" />
+      <created>1731407300543</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1731407300543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder" />
   </component>
 </project>

@@ -1,14 +1,15 @@
 public class Main {
-
     public static void main(String[] args) {
-        System.out.println("Building Gaming Computer");
-        ComputerBuilder gamingComputerBuilder = new GamingComputerBuilder();
-        ComputerDirector gamingComputerDirector = new ComputerDirector(gamingComputerBuilder);
-        gamingComputerDirector.buildComputer();
+        ComputerBuilder gamingBuilder = new GamingComputerBuilder();
+        ComputerDirector director = new ComputerDirector(gamingBuilder);
+        director.constructComputer();
+        Computer gamingComputer = gamingBuilder.getComputer();
+        System.out.println("Gaming Computer: " + gamingComputer);
 
-        System.out.println("\nBuilding Office Computer");
-        ComputerBuilder officeComputerBuilder = new OfficeComputerBuilder();
-        ComputerDirector officeComputerDirector = new ComputerDirector(officeComputerBuilder);
-        officeComputerDirector.buildComputer();
+        ComputerBuilder officeBuilder = new OfficeComputerBuilder();
+        director = new ComputerDirector(officeBuilder);
+        director.constructComputer();
+        Computer officeComputer = officeBuilder.getComputer();
+        System.out.println("Office Computer: " + officeComputer);
     }
 }
