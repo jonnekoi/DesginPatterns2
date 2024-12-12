@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b640334-c693-4412-8394-44438496aeb0" name="Changes" comment="adapter">
-      <change afterPath="$PROJECT_DIR$/Prototype/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prototype/src/main/java/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prototype/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prototype/src/main/java/Recommendation.java" afterDir="false" />
+    <list default="true" id="2b640334-c693-4412-8394-44438496aeb0" name="Changes" comment="prototype">
+      <change afterPath="$PROJECT_DIR$/Iterator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/java/FibonacciIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/java/FibonacciSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/src/main/java/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -40,25 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,7 +82,11 @@
       <workItem from="1731565008515" duration="12000" />
       <workItem from="1731843745282" duration="17000" />
       <workItem from="1731858653991" duration="121000" />
-      <workItem from="1732453584270" duration="2498000" />
+      <workItem from="1732453584270" duration="2726000" />
+      <workItem from="1732463814086" duration="61000" />
+      <workItem from="1732692074708" duration="592000" />
+      <workItem from="1732810362644" duration="269000" />
+      <workItem from="1734012111670" duration="418000" />
     </task>
     <task id="LOCAL−00001" summary="builder">
       <option name="closed" value="true" />
@@ -103,7 +109,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1731440956128</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="prototype">
+      <option name="closed" value="true" />
+      <created>1732456230027</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1732456230027</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +136,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="builder" />
     <MESSAGE value="adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="adapter" />
+    <MESSAGE value="prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="prototype" />
   </component>
 </project>
